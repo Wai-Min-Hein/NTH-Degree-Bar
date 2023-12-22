@@ -1,5 +1,4 @@
 import React from "react";
-import home1 from "../../public/image/home1.jpg";
 import Image from "next/image";
 import './home.css'
 

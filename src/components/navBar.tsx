@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logoWhite from "../../public/image/LogoWhite.png";
+import logoWhite from "../../public/image/logoWhite.png";
 import Link from "next/link";
 
 const NavBar = () => {
