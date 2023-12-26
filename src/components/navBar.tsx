@@ -5,26 +5,28 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav className="flex items-center justify-between py-4 container mx-auto z-50">
-      <div className="logo w-16 h-auto">
-        <Image src={logoWhite} alt="NTH Logo" />
+    <nav className="flex items-center justify-between py-4 container mx-auto relative z-50">
+      <div className=" w-16 h-12 relative">
+        <Image
+          src={logoWhite}
+          alt="NTH Logo"
+          width={64}
+          height={20}
+          className="cursor-pointer relative max-w-16"
+        />
       </div>
 
       <ul className="flex items-center flex-1 justify-end gap-6">
         <Link href={"/"}>
-          <li>Home</li>
-        </Link>
-
-        <Link href={"/menu"}>
-          <li>Menu</li>
+          <li className="font-header text-lg font-normal">Home</li>
         </Link>
 
         <Link href={"/news"}>
-          <li>News</li>
+          <li className="font-header text-lg font-normal">Events</li>
         </Link>
 
         <Link href={"/contact"}>
-          <li>Contact</li>
+          <li className="font-header text-lg font-normal">Contact</li>
         </Link>
       </ul>
     </nav>

@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "wine",
+      "image": "https://i.pinimg.com/236x/5d/fc/84/5dfc84b403dbe4cb65552b2edb3d6fa6.jpg"
+    },
+    {
+      "id": 2,
+      "name": "whisky",
+      "image": "https://i.pinimg.com/236x/3f/75/f6/3f75f6e4560c1f32583a8d8d7ed3ecf5.jpg"
+    },
+    {
+      "id": 3,
+      "name": "food",
+      "image": "https://i.pinimg.com/236x/6e/ce/3f/6ece3ffaf62a8bb87135e6726fb9852a.jpg"
+    },
+    {
+      "id": 4,
+      "name": "food",
+      "image": "https://i.pinimg.com/236x/6e/ce/3f/6ece3ffaf62a8bb87135e6726fb9852a.jpg"
+    },
+    {
+      "id": 5,
+      "name": "food",
+      "image": "https://i.pinimg.com/236x/6e/ce/3f/6ece3ffaf62a8bb87135e6726fb9852a.jpg"
+    },
+    {
+      "id": 6,
+      "name": "food",
+      "image": "https://i.pinimg.com/236x/6e/ce/3f/6ece3ffaf62a8bb87135e6726fb9852a.jpg"
+    },
+    {
+      "id": 7,
+      "name": "food",
+      "image": "https://i.pinimg.com/236x/6e/ce/3f/6ece3ffaf62a8bb87135e6726fb9852a.jpg"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "test wine",
+      "categoryName": "wine"
+    },
+    { "id": 2, "name": "test whisky", "categoryName": "whisky" },
+    { "id": 3, "name": "test food", "categoryName": "food" },
+    { "id": 4, "name": "test food", "categoryName": "food" },
+    { "id": 5, "name": "test food", "categoryName": "food" }
+  ]
+}
