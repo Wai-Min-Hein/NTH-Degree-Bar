@@ -6,6 +6,8 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <nav className="flex items-center justify-between py-4 container mx-auto relative z-50">
+      <Link href={'/'}>
+      
       <div className=" w-16 h-12 relative">
         <Image
           src={logoWhite}
@@ -15,6 +17,9 @@ const NavBar = () => {
           className="cursor-pointer relative max-w-16"
         />
       </div>
+
+      </Link>
+
 
       <ul className="flex items-center flex-1 justify-end gap-6">
         <Link href={"/"}>
