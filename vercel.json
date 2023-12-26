@@ -1,18 +1,16 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "page.tsx",
-        "use": "@vercel/node",
-        "config": {
-          "includeFiles": ["db.json"]
-        }
+  "version": 2,
+  "builds": [
+    {
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["db.json"]
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "page.tsx"
-      }
-    ]
-  }
+    }
+  ],
+  "routes": [
+    {
+      "dest": "page.tsx"
+    }
+  ]
+}
