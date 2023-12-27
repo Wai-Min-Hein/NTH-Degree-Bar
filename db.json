@@ -50,6 +50,10 @@
       "categoryName": "wine"
     },
     { "id": 2, "name": "test whisky", "categoryName": "whisky" },
+    { "id": 102, "name": "test whisky", "categoryName": "whisky" },
+    { "id": 12, "name": "test whisky", "categoryName": "whisky" },
+    { "id": 22, "name": "test whisky", "categoryName": "whisky" },
+    { "id": 32, "name": "test whisky", "categoryName": "whisky" },
     { "id": 3, "name": "test food", "categoryName": "food" },
     { "id": 4, "name": "test food", "categoryName": "food" },
     { "id": 5, "name": "test food", "categoryName": "food" }
