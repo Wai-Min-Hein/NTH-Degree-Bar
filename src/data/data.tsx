@@ -1,5 +1,5 @@
 export async function getCategories() {
-  const res = await fetch("http://localhost:3012/categories");
+  const res = await fetch("http://localhost:3111/categories");
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
 
@@ -13,7 +13,7 @@ export async function getCategories() {
 
 
 export async function getMenu() {
-  const res = await fetch("http://localhost:3012/menu");
+  const res = await fetch("http://localhost:3111/menu");
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
 
